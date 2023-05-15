@@ -18,6 +18,7 @@ Main background - #D4A76A*/
     color: var(--header-text-color);
     display: flex;
     justify-content: space-around;
+    width: 100vw;
   }
 
   h1 {
@@ -30,7 +31,8 @@ Main background - #D4A76A*/
   }
 
   #mainButtons {
-    margin-right: 10px
+    margin-right: 10px;
+    border-style: none;
   }
   
   button {
@@ -68,11 +70,12 @@ Main background - #D4A76A*/
 
   #aboutUs {
     background-color: white;
-    width: 1000px;
+    width: 80vw;
   }
 
   body {
     background-color: var(--main-bg-color);
+    margin: 0;
   }
 
   section {
