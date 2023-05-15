@@ -3,3 +3,93 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+/* Define the color variables */
+:root {
+    --header-bg-color: #FFDBAA;
+    --button-color: #805215;
+    --header-text-color: #553100;
+    --main-bg-color: #D4A76A;
+  }
+  
+  /* Apply the colors to specific elements */
+  header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h1 {
+    margin-right: 100px;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #mainButtons {
+    margin-right: 10px
+  }
+  
+  button {
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: max-content;
+    align-self: center;
+  }
+
+  #sb {
+    width: inherit;
+  }
+
+  #learnMore {
+    width: inherit;
+  }
+  
+  main {
+    background-color: var(--main-bg-color);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #flights,#group,#discount {
+    background-color: white;
+    width: 300px;
+  }
+
+  #aboutUs {
+    background-color: white;
+    width: 1000px;
+  }
+
+  body {
+    background-color: var(--main-bg-color);
+  }
+
+  section {
+    display: grid;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  h2 {
+    display: grid;
+    justify-content: space-around;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  p {
+    display: grid;
+    justify-content: space-around;
+  }
